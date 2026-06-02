@@ -5,5 +5,8 @@ shamefullyHoist: false
 packages:
   - "packages/*"
 
+allowBuilds:
+  "esbuild": false
+
 configDependencies:
   "@pnpm/pacquet": 0.2.2-15

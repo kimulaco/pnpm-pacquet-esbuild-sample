@@ -1,0 +1,19 @@
+{
+  "name": "pnpm-pacquet-esbuild-sample",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "esbuild src/sum.ts --outfile=dist/sum.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.0"
+  },
+  "packageManager": "pnpm@11.5.1",
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "24.16.0",
+      "onFail": "download"
+    }
+  }
+}

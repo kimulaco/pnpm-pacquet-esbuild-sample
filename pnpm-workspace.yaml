@@ -1,3 +1,7 @@
+hoist: false
+hoistWorkspacePackages: false
+shamefullyHoist: false
+
 packages:
   - "packages/*"
 

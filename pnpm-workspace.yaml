@@ -1,2 +1,5 @@
+packages:
+  - "packages/*"
+
 configDependencies:
   "@pnpm/pacquet": 0.2.13

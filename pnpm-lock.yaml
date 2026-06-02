@@ -87,6 +87,15 @@ importers:
       node:
         specifier: runtime:24.16.0
         version: runtime:24.16.0
+
+  packages/pkg-a:
+    devDependencies:
+      vitest:
+        specifier: ^3.2.6
+        version: 3.2.6
+
+  packages/pkg-b:
+    devDependencies:
       vitest:
         specifier: ^3.2.6
         version: 3.2.6
